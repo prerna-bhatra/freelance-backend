@@ -5,7 +5,7 @@ const env = {
     "database": process.env.POSTGRES_DATABASE,
     "host": process.env.POSTGRES_HOST,
     "dialect": "postgres",
-    "sslmode": "require"
+    "sslmode": "require",
   },
   // "uat": {
   //   "username": process.env.DB_USER_uat,
