@@ -5,12 +5,12 @@ const pg = require("pg")
 
 
 const sequelize = new Sequelize(
-  config.env.development.database,
-  config.env.development.username,
-  config.env.development.password,
+  "b5h8ikrilho6eembv7r5",
+  "u6sxbk276jis0ddlaqn9",
+  "7eoQT2Tb9CycpS9PICivmdC2730mH1",
   {
     port: '50013',
-    host: config.env.development.host,
+    host: "b5h8ikrilho6eembv7r5-postgresql.services.clever-cloud.com",
     dialect: config.env.development.dialect,
     sslmode: config.env.development.sslmode,
     dialectModule: pg,
