@@ -22,7 +22,7 @@ const s3 = new AWS.S3();
 const upload = multer({
   storage: multerS3({
     s3,
-    bucket: process.env.S3_BUCKET,
+    bucket: "winwavebucket",
     key: function (req, file, cb) {
       cb(null, Date.now().toString() + "-" + file.originalname);
     },
